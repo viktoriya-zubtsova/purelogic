@@ -16,8 +16,11 @@ function goBack() {
   document.querySelectorAll('.active').forEach (item => item.classList.remove('active'));
   burgerBox.classList.remove('hidden');
   wrapper.classList.remove('hidden');
-  burger.removeChild(document.querySelector('.burger__title'));
   burgerBack.classList.add('hidden');
+  let title = document.querySelector('.burger__title');
+  if (title !== null) {
+    burger.removeChild(title)
+  };
 }
 
 burgerItem[0].onclick = () => {

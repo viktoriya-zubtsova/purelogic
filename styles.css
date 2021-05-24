@@ -121,6 +121,7 @@ header{
   text-decoration: none;
   font: 400 16px/13px Roboto, arial, helvetica, sans-serif;
   padding: 0 40px 12px 0;
+  cursor: pointer;
 }
 .menu__item-list{
   padding-right: 63px;
@@ -153,6 +154,7 @@ header{
   background-color: #fff;
   width: 190px;
   max-width: 190px;
+  cursor: pointer;
 }
 .menu__item-list:hover ~ .menu__list, .menu__list:hover{
   top: 33px;
@@ -199,6 +201,7 @@ header{
   position: relative;
   text-align: center;
   padding-top: 28px;
+  cursor: pointer;
 }
 .toolbar__counter{
   position: absolute;
