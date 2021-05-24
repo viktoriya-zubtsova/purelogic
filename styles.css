@@ -408,7 +408,7 @@ header{
   }
   header{
     height: 100px;
-    margin-bottom: 34px;
+    margin-bottom: 31px;
   }
   .wrapper{
     width: 77%;
@@ -501,11 +501,11 @@ header{
     margin-left: 3px;
     background: no-repeat center url(img/banner1280.png);
     background-size: contain;
-    height: 413px;
-    margin-bottom: 139px;
+    height: 418px;
+    margin-bottom: 137px;
   }
   .main__banner_points{
-    padding: 440px 0 0 0px;
+    padding: 442px 0 0 0px;
   }
   .main__banner_points_item{
     padding: 3px 3px;
@@ -761,7 +761,7 @@ header{
   .burger__box{
     display: block;
     position: absolute;
-    top: 43px;
+    top: 45px;
     left: -100%;
     width: 100%;
     height: 100vh;
