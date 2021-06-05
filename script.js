@@ -41,6 +41,7 @@ burgerItem[2].onclick = () => {
 
 document.querySelectorAll('.aside-menu__item')[4].onclick = () => {
   asideMenu.classList.remove('active');
+  asideMenu.classList.add('hidden');
   document.querySelector('.section-5').classList.add('active');
   burger.removeChild(document.querySelector('.burger__title'));
   createTitle('Электроника ЧПУ');
